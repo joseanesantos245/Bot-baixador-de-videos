@@ -7,6 +7,6 @@ services:
     startCommand: python main.py
     envVars:
       - key: TELEGRAM_TOKEN
-        value: 8189683090:AAGPCQGO6ZtselZM-gZvWH5Ujb_cbwvdCsY  # Seu token
+        value: 7571936517:AAFeRnmaR-u6pAl8WZxowiJsWzM-W1A29Ts  # Seu token
       - key: APP_NAME
         value: baixador_videos_tiktokbot
