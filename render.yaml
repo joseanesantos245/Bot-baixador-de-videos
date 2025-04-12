@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: baixador-tiktok
+    runtime: python
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8189683090:AAGPCQGO6ZtselZM-gZvWH5Ujb_cbwvdCsY  # Seu token
+      - key: APP_NAME
+        value: baixador_videos_tiktokbot
