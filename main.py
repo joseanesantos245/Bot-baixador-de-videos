@@ -37,12 +37,12 @@ Escolha uma opção:
 
 def help_command(update: Update, context: CallbackContext):
     update.message.reply_text(
-        """🤖 *Como usar:*
-1. Envie um link do TikTok
-2. Aguarde o processamento
-3. Você é o responsável pelo uso
+        """🤖 *Como usar o robô baixador de vídeos?*
 
-Entendeu? (responda 'sim' ou 'não')""",
+1. Envie um link do TikTok que eu baixo e te envio de volta.
+2. Lembre-se você é o único (a) responsável pelo seu sucesso.
+
+Você entendeu? (Responda 'sim' ou 'não')""",
         parse_mode="Markdown"
     )
     return "AGUARDANDO_CONFIRMACAO"
